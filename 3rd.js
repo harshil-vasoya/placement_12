@@ -1,7 +1,6 @@
 // given an integer n , return the numberof trailing zeros in n!;
 
-function temp() {
-    var n = 30;
+function solution(n) {
     var ans = 0;
 
     for (let i = 5; i <= n; i=i*5) {
@@ -9,4 +8,4 @@ function temp() {
     }
     console.log(ans)
 }
-temp()
+solution()
