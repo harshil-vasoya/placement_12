@@ -110,29 +110,29 @@ class ImplemetStack {
             }
             tempstack.sort((a, b) => a - b);
             this.output.push([]);
-            return tempstack[0]
+            return tempstack[0];
         }
     }
 
     getoutput() {
-        console.log(this.output)
+        console.log(this.output);
     }
 
 }
 
 var obj = new ImplemetStack();
-// obj.push(10)
-obj.push(-2)
-obj.push(0)
-obj.push(-3)
+// obj.push(10);
+obj.push(-2);
+obj.push(0);
+obj.push(-3);
 
 
-obj.getMinS()
-obj.pop()
-obj.top()
-obj.getMinS()
+obj.getMinS();
+obj.pop();
+obj.top();
+obj.getMinS();
 
-obj.getoutput()
+obj.getoutput();
 
 ```
 
@@ -161,7 +161,10 @@ function solution(n) {
     for (let i = 1; i <= n; i++) {
         ans += i;
     }
-    console.log(ans[n - 1])
+    console.log(ans[n - 1]);
 }
 ```
+
+# 5 #
+####  Suppose an array of length n sorted in ascending order is rotated between 1 and n times , for example the array nums =[0,1,2,3,4,5] might become:[4,5,0,1,2,3]
 
